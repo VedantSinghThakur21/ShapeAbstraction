@@ -13,4 +13,8 @@ class Sphere extends Shape implements Volume{
     public double calculateArea(){
         return 4 * Math.PI * radius * radius;
     }
+
+    public double calculateVolume(){
+        return 4/3 * Math.PI * radius * radius;
+    }
 }
