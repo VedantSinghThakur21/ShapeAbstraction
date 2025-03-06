@@ -11,6 +11,6 @@ class Square extends Shape {
     }
 
     public double calculatePerimeter() {
-
+        return 4 * side;
     }
 }
