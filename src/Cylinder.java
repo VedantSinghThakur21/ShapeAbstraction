@@ -11,4 +11,8 @@ class Cylinder extends Shape implements Volume{
     public double calculateArea() {
         return 2 * Math.PI * radius * (radius + height);
     }
+
+    public double calculatePerimeter() {
+        return 2 * Math.PI * radius;
+    }
 }
