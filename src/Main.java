@@ -66,6 +66,14 @@ class Main{
                     System.out.println("Invalid choice!");
                     continue;
             }
+
+            System.out.println("Area: " + shape.calculateArea());
+            System.out.println("Perimeter: " + shape.calculatePerimeter());
+
+            if (shape instanceof Volume) {
+                System.out.println("Volume: " + ((Volume) shape).calculateVolume());
+            }
         }
+        scanner.close();
     }
 }
