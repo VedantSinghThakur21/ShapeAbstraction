@@ -1,4 +1,4 @@
-class EquilateralPyramid extends Shape {
+class EquilateralPyramid extends Shape implements Volume {
           private double baseSide, height;
 
     public EquilateralPyramid(double baseSide, double height) {
