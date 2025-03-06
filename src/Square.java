@@ -7,7 +7,7 @@ class Square extends Shape {
     }
 
     public double calculateArea() {
-
+        return side * side;
     }
 
     public double calculatePerimeter() {
