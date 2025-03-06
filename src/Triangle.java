@@ -10,7 +10,8 @@ class Triangle extends Shape {
         return 0.5 * base * height;
     }
     public double calculatePerimeter() {
-
+        double side = Math.sqrt((base / 2) * (base / 2) + height * height);
+        return base + 2 * side;
     }
 }
 
