@@ -5,4 +5,8 @@ class Sphere extends Shape implements Volume{
         super("Sphere");
         this.radius = radius;
     }
+
+    public double calculatePerimeter(){
+        return 2 * Math.PI * radius;
+    }
 }
