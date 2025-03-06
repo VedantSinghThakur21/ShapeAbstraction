@@ -11,4 +11,10 @@ class EquilateralPyramid extends Shape {
                return 4 * baseSide;
           }
 
+          public double calculateArea() {
+               double baseArea = baseSide * baseSide;
+               double slantHeight = Math.sqrt((baseSide / 2) * (baseSide / 2) + height * height);
+               double lateralArea = 2 * baseSide * slantHeight;
+               return baseArea + lateralArea;
+          }
      }
