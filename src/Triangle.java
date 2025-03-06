@@ -7,7 +7,7 @@ class Triangle extends Shape {
         this.height = height;
     }
     public double calculateArea() {
-
+        return 0.5 * base * height;
     }
     public double calculatePerimeter() {
 
