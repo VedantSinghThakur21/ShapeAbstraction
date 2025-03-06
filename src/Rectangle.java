@@ -8,7 +8,7 @@ class Rectangle extends Shape {
     }
 
     public double calculateArea() {
-
+        return length * width;
     }
 
     public double calculatePerimeter() {
