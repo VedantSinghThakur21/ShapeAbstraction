@@ -9,4 +9,8 @@ class Sphere extends Shape implements Volume{
     public double calculatePerimeter(){
         return 2 * Math.PI * radius;
     }
+
+    public double calculateArea(){
+        return 4 * Math.PI * radius * radius;
+    }
 }
