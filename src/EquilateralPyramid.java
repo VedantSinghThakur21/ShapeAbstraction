@@ -6,5 +6,9 @@ class EquilateralPyramid extends Shape {
                this.baseSide = baseSide;
                this.height = height;
           }
+
+          public double calculatePerimeter() {
+               return 4 * baseSide;
+          }
+
      }
-}
