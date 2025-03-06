@@ -17,4 +17,8 @@ class EquilateralPyramid extends Shape {
                double lateralArea = 2 * baseSide * slantHeight;
                return baseArea + lateralArea;
           }
+
+          public double calculateVolume() {
+               return (1.0 / 3.0) * baseSide * baseSide * height;
+          }
      }
