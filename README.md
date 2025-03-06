@@ -3,17 +3,26 @@
 # **ShapeAbstraction - Java Program**  
 *A Menu-Driven Program to Calculate Area, Perimeter, and Volume of Various Shapes*  
 
+---
+
 ## **Table of Contents**
 - [Introduction](#introduction)  
 - [Features](#features)  
 - [Technologies Used](#technologies-used)  
 - [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation Steps](#installation-steps)  
 - [Usage](#usage)  
 - [Class Structure](#class-structure)  
+  - [Abstract Class: Shape](#1-abstract-class-shape)  
+  - [Interface: Volume](#2-interface-volume)  
+  - [Shape Implementations](#3-classes-implementing-shape)  
+  - [Shape & Volume Implementations](#4-classes-implementing-shape--volume)  
 - [Methods & Functions](#methods--functions)  
 - [Code Structure](#code-structure)  
 - [Example Run](#example-run)  
-- [Contribution](#contribution)  
+- [Contribution](#contribution)
+- [Author](#Author)
 - [License](#license)  
 
 ---
